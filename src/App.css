@@ -1,0 +1,107 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: larger;
+  background:linear-gradient(to right,  #16a1b9, #88b918, #b9a316, #1784be, #be5117,#11698f  );
+  background-size: 400% 400%;
+  animation: gradientbg 30s ease infinite alternate;
+}
+@keyframes gradientbg {
+  0%{
+  background-position: 0% 50%;
+  }
+  50%{
+    background-position: 50% 100%;
+  }
+  100%{
+    background-position:0% 50%;
+  }
+}
+.container h1{
+  margin-bottom: 16px;
+}
+.formcard{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.formcard input{
+  background-color: transparent;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,0.6 );
+box-shadow: 0px 0px 5px 0px rgba(255,255,255,0.2 );
+min-width: 400px;
+font-weight: 500;
+font-size: large;
+}
+.formcard input::placeholder{
+  text-align: center;
+}
+.formcard button{
+  min-width: 250px;
+  background-color:rgba(255,255,255,0.4);
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgba(255,255,255,0.6 );
+box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.2 );
+font-size: large;
+cursor: pointer;
+}
+.formcard button:hover{
+background-color:rgba(255,255,255,0.3) ;
+}
+.userCard{
+padding: 16px;
+margin-top: 20px;
+background-color:rgba(255,255,255,0.6) ;
+border-radius: 10px;
+display: flex;
+justify-content: space-between;
+gap:20px;
+text-align: left;
+box-shadow: 0px 0 5px 0px rgba(255,255,255,0.2);
+color: white;
+
+}
+.userbody{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.followers{
+  margin-bottom: 20px;
+}
+.name{
+  font-weight: 700;
+  font-size: xx-large;
+}
+.name em{
+  font-weight: 600;
+  font-size: larger;
+}
+.userimg img{
+  display: block;
+  box-shadow:0 0 5px 0 rgba(255,255,255,0.3);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
