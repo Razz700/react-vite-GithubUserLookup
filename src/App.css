@@ -12,7 +12,7 @@
   color: white;
   text-align: center;
   font-size: larger;
-  background:linear-gradient(to right,  #16a1b9, #88b918, #b9a316, #1784be, #be5117,#11698f  );
+  background:linear-gradient(-45deg,  #16a1b9, #88b918, #b9a316, #1784be, #be5117,#11698f  );
   background-size: 400% 400%;
   animation: gradientbg 30s ease infinite alternate;
 }
