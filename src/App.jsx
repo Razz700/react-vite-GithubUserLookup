@@ -14,6 +14,7 @@ const App = () => {
   const [dataImg,setdataImg]=useState('');
   useEffect(()=>{
     document.getElementById('usercard1').style.display='none';
+    document.getElementById('error').style.display='none';
   },[]);
     const apirequest=async(e)=>{
       e.preventDefault();
