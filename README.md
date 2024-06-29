@@ -1,8 +1,8 @@
 # React + Vite
 1.Use of react js <br>
-2.Use of axios for apirequest
-3.Deployed on vercell
-4.Deployed link: https://react-vite-github-user-lookup.vercel.app/
+2.Use of axios for apirequest<br>
+3.Deployed on vercell<br>
+4.Deployed link: https://react-vite-github-user-lookup.vercel.app/<br>
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
